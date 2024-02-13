@@ -173,6 +173,6 @@ class Ui_MainWindow(object):
         self.label_3.setText(_translate("MainWindow", "<html><head/><body><p>=</p></body></html>"))
         self.label.setText(_translate("MainWindow", "<html><head/><body><p>Введите число посеянных семян:</p></body></html>"))
         self.label_8.setText(_translate("MainWindow", "<html><head/><body><p>=</p></body></html>"))
-        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p>Введите вероятность распространения одного семени:</p></body></html>"))
+        self.label_6.setText(_translate("MainWindow", "<html><head/><body><p>Введите вероятность прорастания одного семени:</p></body></html>"))
         self.label_7.setText(_translate("MainWindow", "<html><head/><body><p>p</p></body></html>"))
         self.pushButton.setText(_translate("MainWindow", "Рассчитать"))

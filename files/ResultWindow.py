@@ -94,7 +94,7 @@ class Ui_Form(object):
         self.gridLayout_2.addWidget(self.doubleSpinBox, 0, 2, 1, 1)
         self.label_4 = QtWidgets.QLabel(Form)
         self.label_4.setMinimumSize(QtCore.QSize(60, 0))
-        self.label_4.setMaximumSize(QtCore.QSize(60, 16777215))
+        self.label_4.setMaximumSize(QtCore.QSize(16777215, 16777215))
         font = QtGui.QFont()
         font.setFamily("Times New Roman")
         font.setPointSize(14)
