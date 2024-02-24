@@ -151,7 +151,7 @@ class Finish(QtWidgets.QDialog):
         self.ui.setupUi(self)
         change_size(self)
 
-        self.ui.doubleSpinBox.setValue(round(self.parent.calculation.k, 2))
+        self.ui.doubleSpinBox.setValue(round(self.parent.calculation.k, 0))
         self.ui.lineEdit.setText(self.parent.variables.text)
 
         # filter_table = lambda dct: round(dct['value'], 3)
